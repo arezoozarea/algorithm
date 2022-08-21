@@ -9,4 +9,4 @@ for i in range(len(unique_list)):
     for j in range(i + 1, len(unique_list)):
         if unique_list[i] > unique_list[j]:
             unique_list[i], unique_list[j] = unique_list[j], unique_list[i]
-print(unique_list)
+print(sorted(unique_list, reverse=True))
