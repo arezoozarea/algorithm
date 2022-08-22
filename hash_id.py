@@ -29,7 +29,7 @@ def get_hash_id(number):
 
 
 def main():
-    print flat_hash([[25, 30], [12, 40]])
+    print (flat_hash([[25, 30], [12, 40]]))
 
 
 if __name__ == '__main__':
